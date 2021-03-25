@@ -1,0 +1,15 @@
+[
+  {
+    "name": "first",
+    //"image": "718183984017.dkr.ecr.ap-south-1.amazonaws.com/ecs-repo:latest",
+    "cpu": 2,
+    "memory": 512,
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 80,
+        "hostPort": 81
+      }
+    ]
+  }
+]
